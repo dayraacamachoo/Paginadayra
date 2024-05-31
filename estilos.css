@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	background: black;
+}
+
+.contenedor{
+	width: 1000px;
+	margin: 20px auto;
+}
+
+header{
+	width: 1000px;
+	background: hotpink;
+}
+
+header nav {
+	width: 100%;
+}
+
+header nav ul {
+	width: 100%;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float:  left;
+	list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+	color: #b6eaff;
+}
+
+header nav ul li a:hover{
+	background: pink;
+	color: black;
+}
+
+.main{
+	width: 680px;
+	background:#3170a4;
+	float: left;
+}
+
+.main .imagen{
+	width: 100%;
+}
+
+.main .imagen img{
+	width: 100%;
+}
+
+.main .post{
+	padding: 40px;
+}
+
+.main .post h2{
+	color: #0c0c0c;
+	margin-bottom: 20px;
+}
+
+.main .post p{
+	line-height: 27px;
+	margin-bottom: 15px;
+	color: black;
+}
+
+aside{
+	width: 280px;
+	padding: 20px;
+	background: lightpink;
+	color: black;
+	overflow: hidden;
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget .titulo{
+	color: black;
+	border-bottom: 1px solid;
+	margin-bottom: 15px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid white;
+	padding: 15px 0px;
+}
+
+aside .widget ul li a{
+	text-decoration: none;
+	color: hotpink;
+	display: inline-block;
+}
+
+
+aside .widget ul li a:hover{
+	color: hotpink;
+	background: #7c7c7c;
+}
+
+aside .widget p{
+	line-height: 27px;
+	text-align: justify;
+}
+
+footer{
+	width: 600px;
+	background: #52B3EB;
+	color: black;
+	padding: 40px;
+	text-align: center;
+	overflow: hidden;
+}
+
+header nav ul h1{
+	color: pink;
+}
